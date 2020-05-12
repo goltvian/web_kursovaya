@@ -1,0 +1,167 @@
+.header-top {
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  background: #f1f1f1; }
+
+.header-top a:visited {color: black; }
+
+.header-top .header-top-right {
+  float: right; }
+
+.header-top .header-top-right #TabBlock-1 li {
+  padding: 0 17px;
+  position: relative; }
+
+.header-top .header-top-right #TabBlock-1 li:after {
+  content: "";
+  height: 13px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -6px; }
+
+.header-top .header-top-right #TabBlock-1 li:last-child:after {
+  background: none; }
+
+.header-center {
+  font-size: 14px;
+  padding: 31px 0 33px 0; }
+
+.header-center .navbar-logo {
+  float: left; }
+
+.header-center #sosearchpro {
+  padding-top: 7px;
+  float: left; }
+
+.header-center #sosearchpro input {
+  border-radius: 150px;
+  box-shadow: none;
+  position: relative;
+  height: 46px;
+  padding-left: 30px;
+  font-size: 14px; }
+
+.header-center .shopping_cart .header-text {
+  float: left;
+  line-height: 58px;
+  padding-top: 3px; }
+
+.header-center .shopping_cart .btn-shopping-cart {
+  float: right;
+  padding-right: 15px; }
+
+.header-center .shopping_cart .btn-shopping-cart .handle {
+  position: relative;
+  background: url(../img/cart.png) no-repeat;
+  width: 31px;
+  height: 40px;
+  margin: 5px 10px; }
+
+.header-center .shopping_cart .btn-shopping-cart .number-shopping-cart {
+  position: absolute;
+  height: 22px;
+  width: 22px;
+  line-height: 22px;
+  background: #ff5555;
+  color: #fff;
+  border-radius: 100px;
+  text-align: center;
+  bottom: -20px;
+  left: 0; }
+
+/*Цвет выпадающего меню (полоски)*/
+.header-bottom {
+  background: #0084c2; }
+
+.header-bottom .sidebar-menu .megamenuToogle-wrapper {
+  border-radius: 5px 5px 0 0; }
+
+.header-bottom .sidebar-menu .megamenuToogle-wrapper .megamenuToogle-pattern {
+  border-radius: 5px 5px 0 0; }
+
+.header-bottom .sidebar-menu .megamenuToogle-wrapper .megamenuToogle-pattern div {
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.header-bottom .sidebar-menu .megamenuToogle-wrapper .megamenuToogle-pattern .container {
+  padding: 14px 15px; }
+
+.header-bottom .sidebar-menu .vertical-wrapper .megamenu-pattern .megamenu li:hover a.clearfix {
+  text-decoration: none;
+  background: #f8f8f8; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li {
+  margin-right: 20px; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .menu1 {
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: none;
+  color: white; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .menu1 strong {
+  font-weight: 700; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .menu1:hover {
+  text-decoration: none;
+  color: black; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .sub-menu .content a {
+  text-decoration: none;
+  color: #828282; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .sub-menu .content img {
+  max-width: 100%; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li .sub-menu .content .title-submenu {
+  color: #222222; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li.sub-menu-page .content {
+  width: 350px; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu li.home .menu1 {
+  color: #fff !important; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .megamenu .main-menu {
+  text-transform: none; }
+
+.header-bottom .header-bottom-right .megamenu-wrapper .container {
+  padding-top: 10px; }
+
+.header-bottom .price-old {
+  text-decoration: line-through; }
+
+@media (max-width: 1199px) {
+.header-text {
+  display: none; }
+.autosearch-input {
+  width: 73%; } }
+
+@media (max-width: 991px) {
+.header-bottom .header-bottom-right .navbar-header {
+  float: right; }
+
+.header-center .navbar-logo {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 0; }
+
+.so-megamenu .navbar-default .navbar-toggle .icon-bar {
+  background: #fff; }
+
+.navbar-header .navbar-toggle {
+  border: none;
+  margin-right: 0; } }
+
+@media (max-width: 767px) {
+.header-top .header-top-right #TabBlock-1 li {
+  padding-left: 0; }
+
+.header-top .header-top-right #TabBlock-1 li:after {
+  height: 0; }
